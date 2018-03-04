@@ -4,6 +4,8 @@ Use DAVID API to get a functional annotation chart report.
 Before using this tool, see the information about licensing at the DAVID web:
 https://david.ncifcrf.gov/content.jsp?file=Licensing.html
 
+Likely meant for use with Python2, since default "suds" package won't "pip install" with Python3. "suds-jurko" package may be adequate for Python3 usage.
+
 ## Usage
 1. Register your email at
 http://david.abcc.ncifcrf.gov/webservice/register.htm
